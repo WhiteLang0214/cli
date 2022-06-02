@@ -1,0 +1,29 @@
+{
+  "name": "langxue-cli",
+  "version": "1.0.0",
+  "description": "a demo for project",
+  "main": "main.js",
+  "bin": {
+    "lx-cli": "./bin/main.js"
+  },
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WhiteLang0214/cli.git"
+  },
+  "keywords": [
+    "cli"
+  ],
+  "author": "langxue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WhiteLang0214/cli/issues"
+  },
+  "homepage": "https://github.com/WhiteLang0214/cli#readme",
+  "dependencies": {
+    "commander": "^9.3.0",
+    "inquirer": "^8.2.4"
+  }
+}
